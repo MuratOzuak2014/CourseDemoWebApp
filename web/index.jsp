@@ -13,9 +13,6 @@
     </head>
     <body>
         <h1>Hello Class!</h1>
-
-        <a href="hakkimizda/bizkimiz.jsp">biz kimiz<a/>
-            <br>
             
 
         <a href="hakkimizda/bizkimiz.jsp">biz kimiz</a>
@@ -28,6 +25,18 @@
         <br/>
         <br/>
         
+        
+        <a href="urunler/urunler.jsp?urun_gurubu=1">kitaplar</a>
+        <br/>
+        <a href="urunler/urunler.jsp?urun_gurubu=2">filmler</a>
+        <br/>
+        <a href="urunler/urunler.jsp?urun_gurubu=3">notebooklar</a>
+        <br/>
+        <a href="urunler/urunler.jsp?urun_gurubu=4">pcler</a>
+        <br/>
+        <a href="urunler/urunler.jsp?urun_gurubu=5">akıllı telefonlar</a>
+        <br/>
+        <br/>
         
         
         <table border="1">

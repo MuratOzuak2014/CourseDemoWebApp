@@ -14,10 +14,13 @@
     <body>
         <h1>Hello Class!</h1>
 
+        <a href="hakkimizda/bizkimiz.jsp">biz kimiz<a/>
+            <br>
+            
 
         <OL>
             <LI><jsp:include page="inc/item1.jsp" />
-            <LI><jsp:include page="inc/item2.jsp" />
+            <LI><jsp:include page="inc/katman1/item2.jsp" />
             <LI><jsp:include page="inc/item3.jsp" />
         </OL>
 

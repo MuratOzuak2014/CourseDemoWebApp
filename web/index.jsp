@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.sql.*" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,6 +16,8 @@
         <h1>Hello Class!</h1>
             
 
+        
+
         <a href="hakkimizda/bizkimiz.jsp">biz kimiz</a>
         <br/>
         <a href="hakkimizda/neleryaptik.jsp">neler yaptık</a>
@@ -24,21 +27,20 @@
         <a href="iletisim/telefonlar.jsp">telefonlar</a>
         <br/>
         <br/>
-        
-        
-        <a href="urunler/urunler.jsp?urun_gurubu=1">kitaplar</a>
+
+
+        <a href="urunler/urunler.jsp?urun_grubu=1">kitaplar</a>
         <br/>
-        <a href="urunler/urunler.jsp?urun_gurubu=2">filmler</a>
+        <a href="urunler/urunler.jsp?urun_grubu=2">filmler</a>
         <br/>
-        <a href="urunler/urunler.jsp?urun_gurubu=3">notebooklar</a>
+        <a href="urunler/urunler.jsp?urun_grubu=3">notebooklar</a>
         <br/>
-        <a href="urunler/urunler.jsp?urun_gurubu=4">pcler</a>
+        <a href="urunler/urunler.jsp?urun_grubu=4">pcler</a>
         <br/>
-        <a href="urunler/urunler.jsp?urun_gurubu=5">akıllı telefonlar</a>
+        <a href="urunler/urunler.jsp?urun_grubu=5">akıllı telefonlar</a>
         <br/>
-        <br/>
-        
-        
+
+
         <table border="1">
             <%
                 for (int i = 0; i < 10; i++) {
